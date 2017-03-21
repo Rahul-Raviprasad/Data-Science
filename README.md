@@ -17,3 +17,9 @@ Repo for collecting and storing Data science related articles and information
 
 #### Asking the right Questions
 In big data analysis, it is very important to ask the right questions
+* Is our solution solving a problem? which party does it help?
+* what are the benefits?
+* how is it being solved?
+* where do the data inputs originate from?
+* where are the outputs and where do they reside?
+* how does it affect the bottom line?

@@ -23,3 +23,22 @@ In big data analysis, it is very important to ask the right questions
 * where do the data inputs originate from?
 * where are the outputs and where do they reside?
 * how does it affect the bottom line?
+
+#### Kinds of Data
+* Structured data
+  1. data stored
+  2. data processed
+  3. data handled traditionally like RDBMS
+* Unstructured data
+  1. Doesn't fit structured DB
+* Semi Structured data
+  1. Doesn't fit structured DB
+  2. Structured with tags, useful for creating a form of order and hierarchy in semi structured data.
+
+#### Data Science industry
+* Statistician
+ Individuals who models and summarizes datasets
+* Domain experts
+ Subject matter experts
+* Computer scientists
+Design using algorithms and data structures to use and visualize the data

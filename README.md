@@ -59,3 +59,23 @@ Design using algorithms and data structures to use and visualize the data
 
 #### Stage 2 Analysis
 * Create and manage scripts for analysis
+#### Stage 3 Reflection
+
+
+
+## Notes from how to become a Data Scientist in 2017
+
+About the Host :
+Jesse Steinweg-Woods is soon-to-be a Senior Data Scientist at tronc, working on recommender systems for articles and understanding customer behavior. Previously, he worked at Argo Group Insurance on new pricing models that took advantage of machine learning techniques. He received his PhD in Atmospheric Science from Texas A&M University, and his research focused on numerical weather and climate prediction.
+
+why ?
+best jobs in 2016 & 2017
+
+do you need a PH.D.?
+
+Burtch works 2016 Study, Data Scientist education levels
+44% have masters, 48% have Ph.D.s and only 8% Bachelor's
+
+
+## Resources
+1. Burtch works 2016 Study, Data Scientist: http://www.burtchworks.com/files/2016/04/Burtch-Works-Study_DS-2016-final.pdf

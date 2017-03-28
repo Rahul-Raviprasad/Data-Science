@@ -205,7 +205,52 @@ Why?
 * requires little data Preparation.(other techniques often require data normalization, dummy variables need to be created and blank values to be removed.)
 * Performs well with large datasets
 
+### Random Forest(Ensemble Model)
+* Main idea: build an ensemble of simple decision trees
+* Each tree is simple and less likely o overfit
+* Classify/predict by voting between all trees
 
+### ML in Spark
+Spark Ecosystem
+
+| Spark SQL      | Spark Streaming| MLLib | GraphX |
+| :------------- | :------------- |
+| Spark Core     |
+
+### MLlib & ML
+* MLLib
+  * Original "lower" API
+  * Built on top of RDDs
+  * Maintenance mode starting with spark 2.0
+* ML
+  * Newer "higher level" API for constructing workflows
+  * Built on top of DataFrames
+
+### Spark ML Pipeline
+* Pipeline includes both fit() and transform() methods
+  * fit() is for training
+  * transform() is for prediction
+
+```
+model = pipe.fit(trainData) # Train model
+results = model.transform(testData) # Test model
+```
+### example for random forest in MLlib
+```
+
+indexer = StringIndexer(inputCol="district", outputCol="dis-inx")
+parser = Tokenizer(inputCol="text-field", outputCol="words")
+hashingTF = HashingTF(numfeatures=50, inputCol="words", outputCol="hash-inx")
+vecAssembler = VectorAssembler(inputCols=["dis-inx", "hash-inx"],  outputCol="features")
+
+rf = RandomForestClassifier(numTrees=100, labelCol= "label", seed=42)
+pipe = Pipeline(stages=[indexer, parser, hashingTF, vecAssembler, rf])
+
+model = pipe.fit(trainData) # Train model
+results = model.transform(testData) # Test model
+```
+
+Both of these take advantage of parallelism
 
 
 ## Resources

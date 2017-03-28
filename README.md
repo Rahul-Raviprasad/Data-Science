@@ -226,6 +226,8 @@ Spark Ecosystem
   * Newer "higher level" API for constructing workflows
   * Built on top of DataFrames
 
+Both of these take advantage of parallelism
+
 ### Spark ML Pipeline
 * Pipeline includes both fit() and transform() methods
   * fit() is for training
@@ -250,8 +252,25 @@ model = pipe.fit(trainData) # Train model
 results = model.transform(testData) # Test model
 ```
 
-Both of these take advantage of parallelism
+### Apache Zeppelin - A modern web based data science studio
+* Data exploratory and discovery
+* Visualization
+* Deeply integrated with Spark and Hadoop
+* Pluggable interpreters
+* Multiple languages in one notebook: R, Python, Scala
 
+### Exporting ML Models - PMML
+* Predictive Model Markup Language
+* Supported models
+  * k-means
+  * Linear regression
+  * ridge regression
+  * Lasso
+  * SVM
+  * Binary
+
+### MLLeap
+another way to export models
 
 ## Resources
 1. Burtch works 2016 Study, Data Scientist: http://www.burtchworks.com/files/2016/04/Burtch-Works-Study_DS-2016-final.pdf

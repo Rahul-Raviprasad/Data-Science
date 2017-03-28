@@ -156,6 +156,18 @@ P(A|B) = (P(B|A)P(A))/P(B)
 Sample problems at glassdoor:
 https://www.glassdoor.co.in/Interview/data-scientist-interview-questions-SRCH_KO0,14.htm
 
+### ML Evaluation metric
+Understand how to evaluate a model's performance
+- ROC curves
+- cross validation
+- metrics for classification
+
+### Stuff you don't need yet (Learn later once basics are done)
+- Deep Learning (with exception of images/ sound)
+- Spark/Hadoop (most companies don't have the necessary scale)
+- Recommender systems (most companies don't need them)
+- Advanced Natural Language Processing (know the basics)
+
 
 
 

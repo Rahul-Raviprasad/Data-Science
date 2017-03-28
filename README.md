@@ -76,6 +76,90 @@ do you need a PH.D.?
 Burtch works 2016 Study, Data Scientist education levels
 44% have masters, 48% have Ph.D.s and only 8% Bachelor's
 
+#### Most used tools
+Learn python and R
+
+#### Python data stack
+NumPy, SciPy, matplotlib, IP[y] I python interactive computing, scikit learn, pandas
+Learn these libraries well!
+
+#### Learn SQL
+SQL Zoo: http://sqlzoo.net/
+
+#### Machine Learning
+1. Andrew Ng's Coursera course
+2. Elements of Statistical Learning
+3. Scikit-Learn documentation
+#### Bayesian statistics
+1. Bayesian methods for hackers:
+https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers
+2. Statistics for Hackers
+https://speakerdeck.com/jakevdp/statistics-for-hackers
+
+#### Probability distributions
+know your common distributions and understand them
+http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/
+
+### Pet Projects
+The best way to get better at data science is to DO data science.
+
+"DO a project you care about. Make it good and share it." - Monica Rogati, Data Science advisor.
+
+https://www.quora.com/How-can-I-become-a-data-scientist-1
+
+link to host's website: jessesw.com
+
+### About kaggle
+Great for practicing machine learning, not all of Data science
+Kaggle misses :
+ - Asking the right questions
+ - Desicions regarding data sources
+ - Which metrics to optimize
+ - Data Munging/ Wrangling work
+
+Pet projects can cover all of these.
+
+### Job Skills
+
+Basic tools
+Software Engineering
+Statistics
+Machine Learning
+Multivariable Calculus and Linear Algebra
+Data Munging
+Data visualization and communication
+Thinking Like a data scientist
+
+### Interview tips
+- Take home machine learning task
+- "Whiteboard" coding (focus on Data structure and algorithms)
+- "Whiteboard" SQL
+- Bayes' Theorem probability questions
+- Machine Learning evaluation metrics
+
+tips for take home machine learning
+Practice with tree based methods (random forests/gradient boosted trees)
+
+for Whiteboard coding
+1. cracking the coding interview
+2. interview cake interviewcake.com
+3. hackerrank
+4. projecteuler.net
+
+for Whiteboard SQL
+SQLZoo
+
+Bayes Theorem
+memorize the formula and understand each term
+P(A|B) = (P(B|A)P(A))/P(B)
+
+Sample problems at glassdoor:
+https://www.glassdoor.co.in/Interview/data-scientist-interview-questions-SRCH_KO0,14.htm
+
+
+
+
+
 
 ## Resources
 1. Burtch works 2016 Study, Data Scientist: http://www.burtchworks.com/files/2016/04/Burtch-Works-Study_DS-2016-final.pdf

@@ -169,9 +169,46 @@ Understand how to evaluate a model's performance
 - Advanced Natural Language Processing (know the basics)
 
 
+### Spark ML library
+* Basic Statistics
+  * summary statistics
+  * hypothesis testing
+  * random number generation
+* Classification and regression
+  * linear models(SVMs, log, & linear regression)
+  * decision trees
+  * ensembles of trees(Random Forests and GBTs)
+* Collaborative filtering
+  * alternating least squares(ALS)
+* Clustering
+  * k-means clustering
+  * latent Dirichlet allocation(LDA)
+* Dimensionality reduction
+  * singularity value decomposition(SVD)
+  * principal component analysis(PCA)
+* Feature Extractors & Transformers
+  * word2vec
+
+### K-Means
+#### Why?
+* simple and fast algorithm to find clusters
+* Common technique for anomaly detection
+* Drawbacks
+  * doesn't work well with non-circular cluster shape
+  * Number of cluster and initial seed value need to be specified beforehand
+  * Strong sensitivity to outliers and noise
+  * Low capability to pass the local optimum
+
+### Decision trees and random forests(Supervised Learning)
+Why?
+* Simple to understand and interpret(and explain to executives)
+* requires little data Preparation.(other techniques often require data normalization, dummy variables need to be created and blank values to be removed.)
+* Performs well with large datasets
 
 
 
 
 ## Resources
 1. Burtch works 2016 Study, Data Scientist: http://www.burtchworks.com/files/2016/04/Burtch-Works-Study_DS-2016-final.pdf
+2. A visual introduction to machine learning
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/

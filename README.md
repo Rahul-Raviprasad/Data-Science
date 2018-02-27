@@ -276,3 +276,4 @@ another way to export models
 1. Burtch works 2016 Study, Data Scientist: http://www.burtchworks.com/files/2016/04/Burtch-Works-Study_DS-2016-final.pdf
 2. A visual introduction to machine learning
 http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+3. https://www.datasciencecentral.com/profiles/blogs/understanding-the-changing-position-roles-in-data-science
